@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: aws_production 
+    database: ADVENTUREWORKS_ICALDERON
+    quoting:
+      schema: true
+      idenfifier: true
+    schema: Production
+    tables:
+      - name: Product
+      - name: ProductCategory
+      - name: ProductSubcategory
+
+
